@@ -1,6 +1,6 @@
 {
   "name": "@zenstone/use-resize-observer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Just another react resize observer hook.",
   "author": "Jiankai Zeng <janpoem@163.com>",
   "license": "MIT",
@@ -22,6 +22,7 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": ["dist", "src"],
   "scripts": {
     "lint": "biome lint --error-on-warnings ./src",
     "ts-check": "bunx --bun tsc --noEmit",
